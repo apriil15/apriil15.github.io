@@ -4,9 +4,17 @@
         <title>My Site Blog</title>
         <link>https://apriil15.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Test Post]]></title>
+            <link>https://apriil15.github.io/blog/test-post</link>
+            <guid>test-post</guid>
+            <pubDate>Sat, 25 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is a test post for GitHub Action.]]></description>
+            <content:encoded><![CDATA[<p>This is a test post for GitHub Action.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://apriil15.github.io/blog/welcome</link>

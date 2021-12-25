@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://apriil15.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2021-12-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://apriil15.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://apriil15.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Test Post]]></title>
+        <id>test-post</id>
+        <link href="https://apriil15.github.io/blog/test-post"/>
+        <updated>2021-12-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a test post for GitHub Action.]]></summary>
+        <content type="html"><![CDATA[<p>This is a test post for GitHub Action.</p>]]></content>
+        <author>
+            <name>Taco</name>
+            <uri>https://github.com/apriil15</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
