@@ -33,6 +33,6 @@ After using Docusaurus what I find:
 
 Every static website framework has its pros and cons, I recommend giving all of them a try, and you can choose what meet your requirements.
 
-Finally, Hello Docusaurus! :clap:
+Finally, hello Docusaurus! :clap:
 
 ![docusaurus](./docusaurus.jpeg)
