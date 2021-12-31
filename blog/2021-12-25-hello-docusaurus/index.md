@@ -7,6 +7,8 @@ tags: [docusaurus]
 
 So, today I move my personal website from [Hugo](https://gohugo.io/) to [Docusaurus](https://docusaurus.io/) (technically yesterday, because it's 12/26 now)
 
+<!--truncate-->
+
 Actually I have known Docusaurus for a few days. I saw [this website](https://pjchender.dev/) at first, then saw one of my friend using it.
 
 What it attracts my attention is:
