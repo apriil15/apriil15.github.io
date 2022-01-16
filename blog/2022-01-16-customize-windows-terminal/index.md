@@ -226,13 +226,17 @@ Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 ```
 
-## Other [themes](https://ohmyposh.dev/docs/themes)
+## Others
 
-測試時 terminal 輸入，就可以看到改變的 theme，確定要用時記得加入 `user_profile.ps1`
+- [themes](https://ohmyposh.dev/docs/themes)
 
-```bash
-Set-PoshPrompt [theme_name]
-```
+  測試時 terminal 輸入，就可以看到改變的 theme，確定要用時記得加入 `user_profile.ps1`
+
+  ```bash
+  Set-PoshPrompt [theme_name]
+  ```
+
+- my PowerShell config is [here](https://github.com/Apriil15/windows-terminal-setting/blob/master/.config/powershell/user_profile.ps1)
 
 ## Reference
 
