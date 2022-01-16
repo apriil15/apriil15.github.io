@@ -4,9 +4,109 @@
         <title>apriil15's blog Blog</title>
         <link>https://apriil15.github.io/blog</link>
         <description>apriil15's blog Blog</description>
-        <lastBuildDate>Fri, 31 Dec 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 16 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Customize Windows Terminal]]></title>
+            <link>https://apriil15.github.io/blog/customize-windows-terminal</link>
+            <guid>customize-windows-terminal</guid>
+            <pubDate>Sun, 16 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[工作上使用 Mac 有 iTerm2 + oh my zsh，還有 autosuggestions（解救蒼生 QQ）]]></description>
+            <content:encoded><![CDATA[<p>工作上使用 Mac 有 <a href="https://iterm2.com/">iTerm2</a> + <a href="https://ohmyz.sh/">oh my zsh</a>，還有 <a href="https://github.com/zsh-users/zsh-autosuggestions">autosuggestions</a>（解救蒼生 QQ）</p><p>雖然家裡 Windows 電腦安裝了 WSL，但有時使用 <code>gcloud</code>、<code>kubectl</code>，會有很慢的問題</p><p>PowerShell 又一直覺得難看且不好用 XD，因此搜尋了一下怎麼修改 Windows Terminal</p><p>主要是筆記給未來換新電腦的自己，以及分享給有需要的人</p><h2>修改 font</h2><ol><li><p>download <a href="https://www.nerdfonts.com/font-downloads">Nerd Fonts</a></p></li><li><p>解壓縮後找到喜歡的字體，安裝檔名後面是 <code>Windows Compatible.ttf</code> 的檔案</p><p><img src="./images/font.png"/></p></li><li><p>Windows Terminal 更改字體</p><p><img src="./images/change-font.png"/></p></li></ol><h2>修改透明度</h2><ol><li><p>點開啟</p><p><img src="./images/2.png"/></p></li><li><p>開啟壓克力，並調整透明度</p><p><img src="./images/3.png"/></p></li></ol><p>就會看到 terminal 變透明了！</p><p>:::info
+💡 這邊要注意的是，Windows 設定的<code>透明效果</code>要記得開啟，不然 terminal 設定的透明會無效
+:::</p><p><img src="./images/4.png"/></p><h2>Install PowerShell</h2><ol><li><p>open <code>Microsoft Store</code> and find <code>PowerShell</code></p><p><img src="./images/5.png"/></p></li><li><p>將 PowerShell 改成預設</p><p><img src="./images/6.png"/></p></li></ol><h2>修改 terminal 色彩配置</h2><ol><li><p>打開 Windows Terminal 設定檔</p><p><img src="./images/7.png"/></p></li><li><p>首先搜尋原本就有的 <code>One Half Dark</code> 如下</p><pre><code class="language-json">{
+  &quot;background&quot;: &quot;#282C34&quot;,
+  &quot;black&quot;: &quot;#282C34&quot;,
+  &quot;blue&quot;: &quot;#61AFEF&quot;,
+  &quot;brightBlack&quot;: &quot;#5A6374&quot;,
+  &quot;brightBlue&quot;: &quot;#61AFEF&quot;,
+  &quot;brightCyan&quot;: &quot;#56B6C2&quot;,
+  &quot;brightGreen&quot;: &quot;#98C379&quot;,
+  &quot;brightPurple&quot;: &quot;#C678DD&quot;,
+  &quot;brightRed&quot;: &quot;#E06C75&quot;,
+  &quot;brightWhite&quot;: &quot;#DCDFE4&quot;,
+  &quot;brightYellow&quot;: &quot;#E5C07B&quot;,
+  &quot;cursorColor&quot;: &quot;#FFFFFF&quot;,
+  &quot;cyan&quot;: &quot;#56B6C2&quot;,
+  &quot;foreground&quot;: &quot;#DCDFE4&quot;,
+  &quot;green&quot;: &quot;#98C379&quot;,
+  &quot;name&quot;: &quot;One Half Dark&quot;,
+  &quot;purple&quot;: &quot;#C678DD&quot;,
+  &quot;red&quot;: &quot;#E06C75&quot;,
+  &quot;selectionBackground&quot;: &quot;#FFFFFF&quot;,
+  &quot;white&quot;: &quot;#DCDFE4&quot;,
+  &quot;yellow&quot;: &quot;#E5C07B&quot;
+}
+</code></pre></li><li><p>再複製貼上一個新的，並修改 <code>background</code> &amp; <code>name</code></p><pre><code class="language-json">{
+  &quot;background&quot;: &quot;#001B26&quot;, // 修改 background
+  &quot;black&quot;: &quot;#282C34&quot;,
+  &quot;blue&quot;: &quot;#61AFEF&quot;,
+  &quot;brightBlack&quot;: &quot;#5A6374&quot;,
+  &quot;brightBlue&quot;: &quot;#61AFEF&quot;,
+  &quot;brightCyan&quot;: &quot;#56B6C2&quot;,
+  &quot;brightGreen&quot;: &quot;#98C379&quot;,
+  &quot;brightPurple&quot;: &quot;#C678DD&quot;,
+  &quot;brightRed&quot;: &quot;#E06C75&quot;,
+  &quot;brightWhite&quot;: &quot;#DCDFE4&quot;,
+  &quot;brightYellow&quot;: &quot;#E5C07B&quot;,
+  &quot;cursorColor&quot;: &quot;#FFFFFF&quot;,
+  &quot;cyan&quot;: &quot;#56B6C2&quot;,
+  &quot;foreground&quot;: &quot;#DCDFE4&quot;,
+  &quot;green&quot;: &quot;#98C379&quot;,
+  &quot;name&quot;: &quot;One Half Dark (modded)&quot;, // 修改 name
+  &quot;purple&quot;: &quot;#C678DD&quot;,
+  &quot;red&quot;: &quot;#E06C75&quot;,
+  &quot;selectionBackground&quot;: &quot;#FFFFFF&quot;,
+  &quot;white&quot;: &quot;#DCDFE4&quot;,
+  &quot;yellow&quot;: &quot;#E5C07B&quot;
+}
+</code></pre></li><li><p>改成剛剛的顏色配置</p><p><img src="./images/8.png"/></p></li></ol><h2>Install <a href="https://scoop.sh/">Scoop</a></h2><ul><li>command-line installer for Windows</li></ul><pre><code class="language-bash"># install scoop
+iwr -useb get.scoop.sh | iex
+
+# install some packages
+scoop install curl sudo jq
+
+# check install successfully
+curl &#x27;https://api.inkdrop.app/&#x27; | jq .
+</code></pre><h2>Install <a href="https://neovim.io/">NeoVim</a></h2><pre><code class="language-bash"># install neovim
+scoop install neovim gcc
+
+# check install successfully
+nvim
+</code></pre><p>使用 <code>nvim</code> 可能不符合使用習慣，待會會再做修改</p><h2>Customize PowerShell config file</h2><ol><li><p>建立 <code>user_profile.ps1</code> 然後編輯</p><pre><code class="language-bash">cd ~
+
+nvim .config/powershell/user_profile.ps1
+</code></pre></li><li><p>user_profile.ps1 加入 alias</p><pre><code class="language-bash"># Alias
+Set-Alias vim nvim
+Set-Alias grep findstr
+</code></pre></li><li><p>編輯電腦的 <code>$PROFILE</code></p><pre><code class="language-bash">nvim $PROFILE.CurrentUserCurrentHost
+
+# 加入這段，讓 $PROFILE 指向自製的 user_profile.ps1
+. $env:USERPROFILE\.config\powershell\user_profile.ps1
+</code></pre></li></ol><p>之後可以試試直接用 <code>vim</code> or <code>grep</code> 測試有沒有成功</p><h2>Install <a href="https://github.com/JanDeDobbeleer/oh-my-posh">oh-my-posh</a></h2><ol><li><p>install posh-git and oh-my-posh</p><pre><code class="language-bash">Install-Module posh-git -Scope CurrentUser -Force
+Install-Module oh-my-posh -Scope CurrentUser -Force
+</code></pre></li><li><p>修改 <code>user_profile.ps1</code></p><pre><code class="language-bash">cd ~
+
+vim .config/powershell/user_profile.ps1
+</code></pre></li><li><p>加入</p><pre><code class="language-bash"># Prompt
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-PoshPrompt powerlevel10k_lean
+</code></pre></li></ol><p>之後可能要開新的 terminal session，或是重開 terminal 才會開始安裝，然後會看到新的 theme</p><h2>Install <a href="https://github.com/devblackops/Terminal-Icons">Terminal-Icons</a></h2><pre><code class="language-bash">Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+
+Import-Module Terminal-Icons
+</code></pre><h2>Install <a href="https://github.com/PowerShell/PSReadLine">PSReadline</a></h2><pre><code class="language-bash"># install PSReadline
+Install-Module -Name PSReadline -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+
+# autocompletion
+Set-PSReadLineOption -PredictionSource History
+
+# option (config that I don&#x27;t use)
+Set-PSReadLineOption -PredictionViewStyle ListView
+</code></pre><h2>Others</h2><ul><li><p><a href="https://ohmyposh.dev/docs/themes">themes</a></p><p>測試時 terminal 輸入，就可以看到改變的 theme，確定要用時記得加入 <code>user_profile.ps1</code></p><pre><code class="language-bash">Set-PoshPrompt [theme_name]
+</code></pre></li><li><p>my PowerShell config is <a href="https://github.com/Apriil15/windows-terminal-setting/blob/master/.config/powershell/user_profile.ps1">here</a></p></li></ul><h2>Reference</h2><p>主要節錄自這個影片：<a href="https://www.youtube.com/watch?v=5-aK2_WwrmM&amp;list=LL&amp;index=1&amp;ab_channel=devaslife">How to set up PowerShell prompt with Oh My Posh on Windows 11</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[回顧 2021]]></title>
             <link>https://apriil15.github.io/blog/review-2021</link>
