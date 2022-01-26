@@ -1,4 +1,4 @@
-# Blank Identifier \_
+# Blank Identifier _
 
 在 Golang 裡面，宣告的變數就一定要用，不然 compiler 會報錯。
 
@@ -37,4 +37,4 @@ func main() {
 
 ## Reference
 
-[What is "\_," (underscore comma) in a Go declaration?](https://stackoverflow.com/questions/27764421/what-is-underscore-comma-in-a-go-declaration)
+[What is "_," (underscore comma) in a Go declaration?](https://stackoverflow.com/questions/27764421/what-is-underscore-comma-in-a-go-declaration)

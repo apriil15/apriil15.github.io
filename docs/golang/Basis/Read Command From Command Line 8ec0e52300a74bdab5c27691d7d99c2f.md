@@ -1,6 +1,6 @@
 # Read Command From Command Line
 
-其實很簡單 XD
+其實很簡單XD
 
 不知道通常會怎麼應用，我猜 cobra 有用到
 
