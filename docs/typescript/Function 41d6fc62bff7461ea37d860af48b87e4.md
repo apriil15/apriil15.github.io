@@ -1,4 +1,4 @@
-# Function 函式
+# Function
 
 - Function Declaration 函式宣告
     

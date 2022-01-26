@@ -1,4 +1,4 @@
-# 相關 Command
+# Basic Command
 
 - 安裝 typescript、ts-node (也要安裝 `@types/node`)
     
