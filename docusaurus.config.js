@@ -41,7 +41,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      autoCollapseSidebarCategories: true,
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true
+        }
+      },
       navbar: {
         title: 'cd ~',
         logo: {
