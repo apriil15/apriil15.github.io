@@ -88,7 +88,7 @@ const config = {
             items: [
               {
                 label: 'Linkedin',
-                href: 'https://www.linkedin.com/in/po-hsiang-wang-24a63a16b/'
+                href: 'https://www.linkedin.com/in/shawn-po-hsiang-wang-24a63a16b/'
               }
             ]
           },
