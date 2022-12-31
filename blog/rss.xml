@@ -4,10 +4,19 @@
         <title>apriil15's blog Blog</title>
         <link>https://apriil15.github.io/blog</link>
         <description>apriil15's blog Blog</description>
-        <lastBuildDate>Mon, 11 Jul 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Dec 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[2022 review]]></title>
+            <link>https://apriil15.github.io/blog/2022-review</link>
+            <guid>2022-review</guid>
+            <pubDate>Sat, 31 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[紀錄一下 2022 忙些什麼！]]></description>
+            <content:encoded><![CDATA[<p>紀錄一下 2022 忙些什麼！</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="離開麻布記帳">離開麻布記帳<a class="hash-link" href="#離開麻布記帳" title="Direct link to heading">​</a></h2><p>在 9 月底離開麻布記帳了</p><p>世事難料，沒想到待一年多就走惹 XD</p><p>原本是打算<del>深蹲</del>到有能力一口氣肉身離開鬼島</p><p>--</p><p>大約在 4 月開始刷題，有一陣子生活模式就是上班 -&gt; 下班刷題，這樣 loop，累得跟狗一樣</p><p><del>收穫是總題數破百惹</del> (後續面試還是有派上用場)</p><p><img loading="lazy" src="https://i.imgur.com/6pWNh5L.png" class="img_ev3q"></p><p>總結來說，還是覺得學學新技術比刷題快樂多了</p><p>刷題刷到懷疑智商，這種感覺就像每天都在做智力測驗，然後不及格 😢</p><p>--</p><p>7 月時認真覺得真的要離職、不能再待，這又是另一段故事了</p><p>暫時 (?!) 放棄離開鬼島夢，後續有些獵頭分享新加坡、日本 PayPay 的職缺，ByteDance HR 問有沒有興趣，我都直接 pass，刷題不夠啊 QQ</p><p>在麻布記帳的這一年多真的很像精神時光屋，碰到許多新技術，出來後覺得自己進步神速，算是跟世界接軌，比較像個人惹 🙃</p><p>最後很感謝 Mitchell, Eddie, Abby 這段時間的幫助</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="加入-funnow">加入 FunNow<a class="hash-link" href="#加入-funnow" title="Direct link to heading">​</a></h2><p>在 9 月底加入 FunNow 惹，算是加入一個較大的團隊</p><p>相對也比較有制度，code review，git flow，release 等等</p><p>在 12 月底蠻順利地通過三個月試用期</p><p>基本上大部分時間都蠻忙的，看 code，了解商業邏輯等等</p><p>也有實作到明年要上的幾個重要 feature，算是對內部商業邏輯有一個基本的認識</p><p>--</p><p>回想到之前是想找寫 Golang 的工作，這次其實是想找 Node.js (TypeScript) 的工作</p><p>畢竟比較熟悉，結果誤打誤撞意外就寫 Golang 了</p><p>如果要問我的感想，我只能說，沒有很方便啊 😅</p><p>可能就比較潮吧，很多方面我倒比較喜歡 TypeScript</p><p>--</p><p>在 2022 的最後一個工作天有了第一次面試人的經驗</p><p>覺得待改進的地方，大概是問問題應該循序漸進地問 XD</p><p>不過整體還是蠻有趣的，聽聽別人會怎麼 promo 自己。或是提前看履歷時，有我不熟悉的東西，就可以研究一下</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="課程">課程<a class="hash-link" href="#課程" title="Direct link to heading">​</a></h2><p>這一年陸陸續續在 Udemy 上看完的課程</p><p><a href="https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/" target="_blank" rel="noopener noreferrer">k8s</a></p><ul><li>推 👍</li><li>可以了解觀念，也有實作</li></ul><p><a href="https://www.udemy.com/course/complete-elasticsearch-masterclass-with-kibana-and-logstash/" target="_blank" rel="noopener noreferrer">ELK</a></p><ul><li>不推 👎</li><li>課程使用的版本有點舊，導致一些 API 使用上到最後我都直接看官方文件</li><li>不過倒是找到一個好用的 <a href="https://github.com/deviantony/docker-elk" target="_blank" rel="noopener noreferrer">Github repo</a>，可以直接在 local 起 container，是個很方便的工具</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="看書-">看書 📚<a class="hash-link" href="#看書-" title="Direct link to heading">​</a></h2><ul><li>看了 N 次 <code>原子習慣</code> (2 次吧</li><li>看了 <code>鋼鐵人馬斯克</code>，用原子習慣的方式，每天睡前至少看一頁，大概 3 個多月看完的 XD</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="耍廢-">耍廢 🎮<a class="hash-link" href="#耍廢-" title="Direct link to heading">​</a></h2><p>玩過有印象的糞 game 💩</p><ul><li>Elden Ring: 玩了 1X 小時，就沒有然後惹</li><li>Dead Cells: 好難好難好難</li><li>Vampire Survivors: 精神時光屋</li><li>魔物獵人崛起 &amp; 破曉：後面刷到挺累的，可能是老惹，應該等明年更新到一定程度再繼續肝</li><li>Slay the spire: 精神時光屋</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="2023">2023<a class="hash-link" href="#2023" title="Direct link to heading">​</a></h2><ul><li>熟悉工作上用的技術</li><li>看 Udemy 買了還沒看課程</li><li>TBD</li></ul><p>其實自從換工作，時不時就在思考短中期目標，但就是還沒有明確方向</p><p>基本上大部分時間還是會花在自己身上吧，大概就是一個還債的概念 😂，其他隨緣ㄅ</p><p>--</p><p>That's it, see you in 2023. 😇</p>]]></content:encoded>
+            <category>review</category>
+        </item>
         <item>
             <title><![CDATA[Something you should know about Event Loop]]></title>
             <link>https://apriil15.github.io/blog/event-loop</link>
