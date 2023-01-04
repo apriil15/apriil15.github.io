@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: `apriil15's blog`,
   tagline: `The Leaving Ghost Island Project`,
-  url: 'https://apriil15.github.io',
+  url: 'https://april15.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
