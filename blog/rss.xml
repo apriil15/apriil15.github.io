@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>apriil15's blog Blog</title>
-        <link>https://april15.dev/blog</link>
+        <link>https://apriil15.github.io/blog</link>
         <description>apriil15's blog Blog</description>
         <lastBuildDate>Sat, 31 Dec 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[2022 review]]></title>
-            <link>https://april15.dev/blog/2022-review</link>
+            <link>https://apriil15.github.io/blog/2022-review</link>
             <guid>2022-review</guid>
             <pubDate>Sat, 31 Dec 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[紀錄一下 2022 忙些什麼！]]></description>
@@ -19,7 +19,7 @@
         </item>
         <item>
             <title><![CDATA[Something you should know about Event Loop]]></title>
-            <link>https://april15.dev/blog/event-loop</link>
+            <link>https://apriil15.github.io/blog/event-loop</link>
             <guid>event-loop</guid>
             <pubDate>Mon, 11 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Something you should know about Event Loop!]]></description>
@@ -29,7 +29,7 @@
         </item>
         <item>
             <title><![CDATA[Customize Windows Terminal]]></title>
-            <link>https://april15.dev/blog/customize-windows-terminal</link>
+            <link>https://apriil15.github.io/blog/customize-windows-terminal</link>
             <guid>customize-windows-terminal</guid>
             <pubDate>Sun, 16 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[工作上使用 Mac 有 iTerm2 + oh my zsh，還有 autosuggestions（解救蒼生 QQ）]]></description>
@@ -38,7 +38,7 @@
         </item>
         <item>
             <title><![CDATA[回顧 2021]]></title>
-            <link>https://april15.dev/blog/review-2021</link>
+            <link>https://apriil15.github.io/blog/review-2021</link>
             <guid>review-2021</guid>
             <pubDate>Fri, 31 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[聊聊 2021 做了什麼吧！]]></description>
@@ -47,7 +47,7 @@
         </item>
         <item>
             <title><![CDATA[Hello Docusaurus!]]></title>
-            <link>https://april15.dev/blog/hello-docusaurus</link>
+            <link>https://apriil15.github.io/blog/hello-docusaurus</link>
             <guid>hello-docusaurus</guid>
             <pubDate>Sat, 25 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[So, today I move my personal website from Hugo to Docusaurus (technically yesterday, because it's 12/26 now)]]></description>
